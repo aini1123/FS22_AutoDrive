@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
-	<translationContributors>璃月雷神</translationContributors>
+	<translationContributors>璃月雷神，IKun</translationContributors>
 	<texts>
 		<text name="UNKNOWN"									text="未知" />
 		<text name="input_ADToggleHud"							text="AD: 切换 HUD" />
@@ -152,7 +152,7 @@
 		<text name="gui_ad_ground"								text="地面" />
 		<text name="gui_ad_aboveDriver"							text="拖拉机上方" />
 		<text name="gui_ad_enableTrafficDetection"				text="碰撞检测" />
-		<text name="gui_ad_enableTrafficDetection_tooltip"		text="高级碰撞检测，还可以检测 AI 交通、标志、围栏等。 Off, detect FS 22 or FS 19 collision" />
+		<text name="gui_ad_enableTrafficDetection_tooltip"		text="高级碰撞检测，还可以检测 AI 交通、标志、围栏等。 取消, 发现 FS 22 or FS 19 碰撞" />
 		<text name="gui_ad_shovelWidth"							text="工具宽度（加法）" />
 		<text name="gui_ad_shovelWidth_tooltip"					text="如果自动检测到的工具宽度太小，可以增加这个值" />
 		<text name="gui_ad_preCallLevel"						text="预呼叫级别" />
@@ -172,8 +172,8 @@
 		<text name="gui_ad_worklightsWhenLoading_tooltip"		text="是 - 在触发器上装载或卸载时使用工作灯" />
 		<text name="gui_ad_worklightsWhenSilo"					text="筒仓工作灯" />
 		<text name="gui_ad_worklightsWhenSilo_tooltip"			text="是 - 在筒仓中使用工作灯" />
-		<text name="gui_ad_hazardLightReverse"					text="Hazard Lights" />
-		<text name="gui_ad_hazardLightReverse_tooltip"			text="Yes - Use hazard lights while reverse driving" />
+		<text name="gui_ad_hazardLightReverse"					text="警示灯" />
+		<text name="gui_ad_hazardLightReverse_tooltip"			text="是-倒车行驶时使用危险指示灯" />
 
     <text name="gui_ad_activeUnloading"						text="主动卸货" />
 		<text name="gui_ad_activeUnloading_tooltip"				text="收割机行驶时卸载。" />
@@ -218,8 +218,8 @@
 		<text name="gui_ad_wideHUD_tooltip"						text="使用宽 HUD 模式，该模式还允许在 HUD 中添加更多设置按钮" />
 		<text name="gui_ad_playSounds"							text="声音" />
 		<text name="gui_ad_playSounds_tooltip"					text="启用鼠标点击和通知的音效" />
-		<text name="gui_ad_scaleLines"							text="Scale Lines" />
-		<text name="gui_ad_scaleLines_tooltip"					text="Scale Thickness of connection lines" />
+		<text name="gui_ad_scaleLines"							text="比例线" />
+		<text name="gui_ad_scaleLines_tooltip"					text="连接线的比例厚度" />
 		<text name="gui_ad_syncMultiTargets"					text="同步多个目的地" />
 		<text name="gui_ad_syncMultiTargets_tooltip"			text="如果几个司机开车到同一个目的地，目的地选择是同步的。" />
 		<text name="gui_ad_enableParkAtJobFinished"				text="工作完成后停车" />
@@ -243,8 +243,8 @@
 		<text name="gui_ad_scanConfirmationText"                text="AutoDrive 是否应该根据地图上的交通和辅助数据生成路线网络？" />
 		<text name="gui_ad_noHarvesterAvailable"				text="未找到具有相同目标的收割机" />
 		<text name="gui_ad_noUnloaderAvailable"					text="没有可用的相同目标司机" />
-		<text name="gui_ad_remainingDriveTimeInterval"			text="Remaining Drive time" />
-		<text name="gui_ad_remainingDriveTimeInterval_tooltip"	text="For external mods: Interval to calculate the remaining drive time. In case of issues with performance increase or deactivate." />
+		<text name="gui_ad_remainingDriveTimeInterval"			text="剩余驾驶时间" />
+		<text name="gui_ad_remainingDriveTimeInterval_tooltip"	text="对于外部mods：计算剩余驱动时间的间隔。如果出现性能提升或停用问题." />
 
 		<text name="gui_ad_settingsPage_title"					text="设置 - AutoDrive" />
 		<text name="gui_ad_userSettingsPage_title"				text="用户设置 - AutoDrive" />
